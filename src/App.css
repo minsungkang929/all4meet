@@ -64,3 +64,64 @@
   color: green;
 }
 
+/*=======Contact====*/
+.contact-area {
+  height: auto;
+  position: relative;
+  background: #F5F5F5;
+  border-bottom: blanchedalmond 5px solid;
+  padding-top: 30px;
+}
+
+.contact-from {
+  margin-bottom: 100px;
+}
+
+.contact-from input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+  height: inherit;
+  margin-bottom: 18px;
+  padding: 16px 20px 15px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  outline: medium none;
+}
+
+.contact-from input:focus {
+  border-color: #007bff;
+}
+
+.contact-from textarea {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100px;
+  padding: 16px 20px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  outline: medium none;
+}
+
+.contact-from textarea {
+  border-color: #007bff;
+}
+
+.contact-from input.submit {
+  margin-bottom: 0;
+  margin-top: 20px;
+  transition: all 0.3s ease 0s;
+  color: #444;
+}
+
+.contact-from input.submit:hover {
+  color: #EAF0F1;
+  background-color: #007bff;
+}
